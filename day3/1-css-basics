@@ -1,0 +1,47 @@
+1. full form (cascading style sheet)
+2. w3c (world wide web consortium)
+3. selector, declaration, property, value, declaration-block
+img {
+  width: 300px;
+}
+4. Shorthand and long hand properties
+5. css cpmments /* */
+6. Values -
+(Numeric values)
+absoulte length: px,cm,mm,pt
+relative length: em, rem, vw, vh
+other values - keywords, functions (rotate(), calc(), url())
+
+==== Codepen.io ==========
+
+7. colors - (keyword, hexadecimal, rgb) (ColorZill chrome extension, https://colours.neilorangepeel.com/)
+8. Selectors
+type Selectors
+p { color: black; }
+universal Selectors
+* {color: red; }
+class selector
+.classname { color: red; }
+id selector (id and in-page linking)
+#idname {color: red;}
+Descendent Selectors ( DOM (Document object model))
+div p a { color: red;}
+.classname p {color: red;}
+
+9. Grouping Selectors
+h1, h2, .classname, #idname { color: pink;}
+
+10. Inheritance
+11. Specificity - order (universal < type (more specific, more priority) < class < id)
+(Example - *, p, .class, #id, div p)
+
+12. Cascade - Top to bottom
+inside single decalration as well as on sequence of  declarations
+
+13 !important keyword overrides source order and Specificity
+p{
+font-size: 12px!important
+}
+.example {
+font-size: 16px
+}
